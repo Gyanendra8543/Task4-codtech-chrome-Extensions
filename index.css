@@ -1,0 +1,44 @@
+body {
+  width: 400px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  text-align: center;
+}
+
+.goal-setter, .time-tracker, .trends-chart {
+  margin: 20px 0;
+}
+
+.goal-setter input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.goal-setter button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.goal-setter ul {
+  list-style: none;
+  padding: 0;
+}
+
+.goal-setter li {
+  margin: 5px 0;
+}
+
+.time-tracker ul {
+  list-style: none;
+  padding: 0;
+}
+
+.time-tracker li {
+  margin: 5px 0;
+}
