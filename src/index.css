@@ -1,13 +1,44 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 400px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  text-align: center;
+}
+
+.goal-setter, .time-tracker, .trends-chart {
+  margin: 20px 0;
+}
+
+.goal-setter input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.goal-setter button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.goal-setter ul {
+  list-style: none;
+  padding: 0;
+}
+
+.goal-setter li {
+  margin: 5px 0;
+}
+
+.time-tracker ul {
+  list-style: none;
+  padding: 0;
+}
+
+.time-tracker li {
+  margin: 5px 0;
 }
